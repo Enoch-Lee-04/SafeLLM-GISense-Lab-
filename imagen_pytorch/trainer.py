@@ -978,7 +978,12 @@ class ImagenTrainer(nn.Module):
 
         for chunk_size_frac, (chunked_args, chunked_kwargs) in split_args_and_kwargs(*args, split_size = max_batch_size, **kwargs):
             with self.accelerator.autocast():
-                loss = self.imagen(*chunked_args, unet = self.unet_being_trained, unet_number = unet_number, **chunked_kwargs)
+                result = self.imagen(*chunked_args, unet = self.unet_being_trained, unet_number = unet_number, **chunked_kwargs)
+                # Handle tuple return from p_losses method
+                if isinstance(result, tuple):
+                    loss = result[2]  # losses.mean() is the third element
+                else:
+                    loss = result
                 loss = loss * chunk_size_frac
 
             total_loss += loss.item()

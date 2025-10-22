@@ -1,53 +1,118 @@
 # Qwen VLM Safety Assessment - Git Ignore File
 
-# Large model files and checkpoints
-qwen_safety_model/
+# ============================================================
+# Virtual Environments (LARGE - DO NOT COMMIT)
+# ============================================================
+venv/
+venv_*/
+env/
+ENV/
+.venv/
+
+# ============================================================
+# Model Files and Checkpoints (LARGE - DO NOT COMMIT)
+# ============================================================
+models/checkpoints/
+models/fine_tuned_qwen2vl_trained/
+models/fine_tuned_qwen2vl_retrained/
+models/qwen/
+fine_tuned_qwen_v1/
 *.safetensors
 *.bin
 checkpoint-*/
-
-# PyTorch model files
-*.pt
 *.pth
+*.pt
 
-# Training logs and outputs
+# Keep only the adapter configs and README
+!models/fine_tuned_qwen2vl/*.json
+!models/fine_tuned_qwen2vl/*.txt
+!models/fine_tuned_qwen2vl/*.jinja
+!models/fine_tuned_qwen2vl/README.md
+
+# ============================================================
+# Training/Experiment Outputs
+# ============================================================
 wandb/
 runs/
 logs/
 *.log
+training_log.txt
+checkpoint_cleanup_log.txt
 
-# Python cache
+# ============================================================
+# Results and Excel Files
+# ============================================================
+results/*.xlsx
+results/**/*.xlsx
+!results/README.md
+# Temp Excel files
+~$*.xlsx
+
+# ============================================================
+# Python Cache and Compiled Files
+# ============================================================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .Python
 *.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
 
-# Virtual environments
-venv/
-env/
-ENV/
-
-# IDE files
+# ============================================================
+# IDE and Editor Files
+# ============================================================
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.project
+.pydevproject
+.settings/
 
-# OS files
+# ============================================================
+# OS Files
+# ============================================================
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Temporary files
+# ============================================================
+# Temporary Files
+# ============================================================
 *.tmp
 *.temp
+.cache/
 
-# Data files (optional - uncomment if you want to ignore training data)
-# *.json
-# Sample SVI/
-# generated_images/
-
-# Model downloads and cache
+# ============================================================
+# Hugging Face Cache
+# ============================================================
 .cache/
 huggingface/
+transformers_cache/
+
+# ============================================================
+# Data Files (optional - uncomment to ignore)
+# ============================================================
+# Uncomment if you don't want to commit audio/image data
+# data/audio/*.wav
+# data/images/**/*.jpg
+# data/images/**/*.png
+
+# ============================================================
+# Jupyter Notebooks (checkpoints)
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Test and Debug Files
+# ============================================================
+test_output/
+debug/
+scratch/

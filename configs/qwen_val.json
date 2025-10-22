@@ -1,0 +1,482 @@
+[
+  {
+    "id": "safety_example_14",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\13.jpg",
+    "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\13.jpg",
+    "expected_response": "Classification: SAFE\nConfidence: HIGH\nReason: The infrastructure is well maintained with a continuous sidewalk and good visibility during the day, though nighttime lighting remains uncertain",
+    "task_type": "binary_classification",
+    "category": "binary_classification",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\13.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Classification: SAFE\nConfidence: HIGH\nReason: The infrastructure is well maintained with a continuous sidewalk and good visibility during the day, though nighttime lighting remains uncertain"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_80",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\6.jpg",
+    "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\6.jpg",
+    "expected_response": "Classification: UNSAFE\nConfidence: HIGH\nReason: active construction without protective pedestrian infrastructure creates direct risks from vehicles, machinery, and materials",
+    "task_type": "binary_classification",
+    "category": "binary_classification",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\6.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Classification: UNSAFE\nConfidence: HIGH\nReason: active construction without protective pedestrian infrastructure creates direct risks from vehicles, machinery, and materials"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_30",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\18.jpg",
+    "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\18.jpg",
+    "expected_response": "HIGH RISK: heavy vehicle traffic with multiple lanes, wide road increases pedestrians exposure, lack of visible crosswalk in the immediate foreground\nMEDIUM RISK: some sidewalks are visible, parking garage entrance/exit nearby increases vehicle-pedestrian conflict points, pavement appears somewhat worn, possible maintenance issues\nLOW RISK: good visibility during daytime, likely presence of traffic signals and crosswalks further along the road, street trees and urban design may reduce speeding desires\n\nOverall Risk Level: HIGH\nPrimary Risk Factor: heavy traffic volume with limited immediate pedestrian protections",
+    "task_type": "risk_assessment",
+    "category": "risk_assessment",
+    "difficulty": "hard",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\18.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "HIGH RISK: heavy vehicle traffic with multiple lanes, wide road increases pedestrians exposure, lack of visible crosswalk in the immediate foreground\nMEDIUM RISK: some sidewalks are visible, parking garage entrance/exit nearby increases vehicle-pedestrian conflict points, pavement appears somewhat worn, possible maintenance issues\nLOW RISK: good visibility during daytime, likely presence of traffic signals and crosswalks further along the road, street trees and urban design may reduce speeding desires\n\nOverall Risk Level: HIGH\nPrimary Risk Factor: heavy traffic volume with limited immediate pedestrian protections"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_78",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\5.jpg",
+    "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\5.jpg",
+    "expected_response": "Pedestrian Safety: 4\nTraffic Safety: 6\nLighting Safety: 2\nInfrastructure Safety: 6\nCrime Safety: 6\n\nOverall Score: 24/50\nMain Concerns: absence of sidewalks, no streetlights, and potential vehicle conflicts at driveways\nStrengths: quiet residential setting, low traffic speeds, and good daylight visibility",
+    "task_type": "detailed_analysis",
+    "category": "detailed_analysis",
+    "difficulty": "hard",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\5.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Pedestrian Safety: 4\nTraffic Safety: 6\nLighting Safety: 2\nInfrastructure Safety: 6\nCrime Safety: 6\n\nOverall Score: 24/50\nMain Concerns: absence of sidewalks, no streetlights, and potential vehicle conflicts at driveways\nStrengths: quiet residential setting, low traffic speeds, and good daylight visibility"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_24",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\16.jpg",
+    "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\16.jpg",
+    "expected_response": "HIGH RISK: no sidewalks or pedestrian walkways, pedestrians must walk directly on the road\nMEDIUM RISK: open lots and lack of buildings reduce natural surveillance, raising safety concerns at night, sparse development may mean lower traffic, but vehicles could speed through, road marking are absent\nLOW RISK: wide, open visibility in daylight, streetlights are present, suggesting some nighttime coverage, flat roadway, no major tripping hazards\n\nOverall Risk Level: MEDIUM\nPrimary Risk Factor: absence of sidewalks and crosswalks, cars can speed through wide road",
+    "task_type": "risk_assessment",
+    "category": "risk_assessment",
+    "difficulty": "hard",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\16.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "HIGH RISK: no sidewalks or pedestrian walkways, pedestrians must walk directly on the road\nMEDIUM RISK: open lots and lack of buildings reduce natural surveillance, raising safety concerns at night, sparse development may mean lower traffic, but vehicles could speed through, road marking are absent\nLOW RISK: wide, open visibility in daylight, streetlights are present, suggesting some nighttime coverage, flat roadway, no major tripping hazards\n\nOverall Risk Level: MEDIUM\nPrimary Risk Factor: absence of sidewalks and crosswalks, cars can speed through wide road"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_38",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+    "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\20.jpg",
+    "expected_response": "Pedestrian Safety: 4\nTraffic Safety: 6\nLighting Safety: 2\nInfrastructure Safety: 5\nCrime Safety: 6\n\nOverall Score: 23/50\nMain Concerns: missing sidewalks, limited visibility, poor nighttime safety\nStrengths: quiet neighborhood, low traffic speeds, passive residential surveillance",
+    "task_type": "detailed_analysis",
+    "category": "detailed_analysis",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\20.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Pedestrian Safety: 4\nTraffic Safety: 6\nLighting Safety: 2\nInfrastructure Safety: 5\nCrime Safety: 6\n\nOverall Score: 23/50\nMain Concerns: missing sidewalks, limited visibility, poor nighttime safety\nStrengths: quiet neighborhood, low traffic speeds, passive residential surveillance"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_74",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\4.jpg",
+    "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\4.jpg",
+    "expected_response": "HIGH RISK: no sidewalks or pedestrian infrastructure, ditch/drainage area beside the road is a fall/trip hazard, isolated, industrial-looking environment with poor surveillance\nMEDIUM RISK: fencing and barbed wire suggest restricted areas, raising perception of danger, rough narrow road condition may make vehicles unpredictable\nLOW RISK: low traffic volume expected in this backyard setting, open visibility in daylight\n\nOverall Risk Level: HIGH\nPrimary Risk Factor: complete lack of pedestrian facilities combined with isolation and poor visibility",
+    "task_type": "risk_assessment",
+    "category": "risk_assessment",
+    "difficulty": "hard",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\4.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "HIGH RISK: no sidewalks or pedestrian infrastructure, ditch/drainage area beside the road is a fall/trip hazard, isolated, industrial-looking environment with poor surveillance\nMEDIUM RISK: fencing and barbed wire suggest restricted areas, raising perception of danger, rough narrow road condition may make vehicles unpredictable\nLOW RISK: low traffic volume expected in this backyard setting, open visibility in daylight\n\nOverall Risk Level: HIGH\nPrimary Risk Factor: complete lack of pedestrian facilities combined with isolation and poor visibility"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_67",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\29.jpg",
+    "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\29.jpg",
+    "expected_response": "Classification: SAFE\nConfidence: MEDIUM\nReason: despite heavy traffic and obstructed visibility from trees, sidewalks and lighting are great which increases pedestrian safety",
+    "task_type": "binary_classification",
+    "category": "binary_classification",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\29.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Classification: SAFE\nConfidence: MEDIUM\nReason: despite heavy traffic and obstructed visibility from trees, sidewalks and lighting are great which increases pedestrian safety"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_57",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\26.jpg",
+    "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\26.jpg",
+    "expected_response": "Safety Score: 2\nReasoning: while daytime visibility is decent, the lack of pedestrians infrastructures, low surveillance, and unsafe nighttime conditions make this a poor environment for walking",
+    "task_type": "safety_score",
+    "category": "safety_scoring",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\26.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Safety Score: 2\nReasoning: while daytime visibility is decent, the lack of pedestrians infrastructures, low surveillance, and unsafe nighttime conditions make this a poor environment for walking"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_1",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\1.jpg",
+    "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\1.jpg",
+    "expected_response": "HIGH RISK: vehicles reversing from driveways\nMEDIUM RISK: trees along the curb could create blind spots, no crosswalks\nLOW RISK: well maintained infrastructure, no potholes, great daylight visibility, low traffic\n\nOverall Risk Level: MEDIUM\nPrimary Risk Factor: low residential speed, driveway and sidewalks colliding",
+    "task_type": "risk_assessment",
+    "category": "risk_assessment",
+    "difficulty": "hard",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\1.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "HIGH RISK: vehicles reversing from driveways\nMEDIUM RISK: trees along the curb could create blind spots, no crosswalks\nLOW RISK: well maintained infrastructure, no potholes, great daylight visibility, low traffic\n\nOverall Risk Level: MEDIUM\nPrimary Risk Factor: low residential speed, driveway and sidewalks colliding"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_42",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\21.jpg",
+    "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\21.jpg",
+    "expected_response": "Safety Score: 6\nReasoning: the sidewalks and residential density help pedestrian safety, but obstructions and missing crossing features prevent this from being a fully safe walking environment",
+    "task_type": "safety_score",
+    "category": "safety_scoring",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\21.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Safety Score: 6\nReasoning: the sidewalks and residential density help pedestrian safety, but obstructions and missing crossing features prevent this from being a fully safe walking environment"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_52",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\25.jpg",
+    "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\25.jpg",
+    "expected_response": "Safety Score: 6\nReasoning: sidewalks and residential oversight improve safety, but crossing hazards and infrastructure wear keep this from being pedestrian-friendly",
+    "task_type": "safety_score",
+    "category": "safety_scoring",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\25.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Safety Score: 6\nReasoning: sidewalks and residential oversight improve safety, but crossing hazards and infrastructure wear keep this from being pedestrian-friendly"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_90",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\9.jpg",
+    "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\9.jpg",
+    "expected_response": "Pedestrian Safety: 3\nTraffic Safety: 6\nLighting Safety: 3\nInfrastructure Safety: 6\nCrime Safety: 8\n\nOverall Score: 26/50\nMain Concerns: missing sidewalks, no lighting, potential conflict with driveways\nStrengths: calm residential setting, low traffic, strong daylight visibility",
+    "task_type": "detailed_analysis",
+    "category": "detailed_analysis",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\9.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Pedestrian Safety: 3\nTraffic Safety: 6\nLighting Safety: 3\nInfrastructure Safety: 6\nCrime Safety: 8\n\nOverall Score: 26/50\nMain Concerns: missing sidewalks, no lighting, potential conflict with driveways\nStrengths: calm residential setting, low traffic, strong daylight visibility"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_29",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\18.jpg",
+    "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\18.jpg",
+    "expected_response": "Classification: SAFE\nConfidence: LOW\nReason: the combination of heavy multi-lane traffic and lack of visible crosswalks makes this unsafe for pedestrians despite sidewalks and urban density",
+    "task_type": "binary_classification",
+    "category": "binary_classification",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\18.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Classification: SAFE\nConfidence: LOW\nReason: the combination of heavy multi-lane traffic and lack of visible crosswalks makes this unsafe for pedestrians despite sidewalks and urban density"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_37",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+    "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\20.jpg",
+    "expected_response": "Classification: UNSAFE\nConfidence: MEDIUM\nReason: despite low traffic, the absence of sidewalks and lack of lighting makes this area unsafe for pedestrians",
+    "task_type": "binary_classification",
+    "category": "binary_classification",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\20.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Classification: UNSAFE\nConfidence: MEDIUM\nReason: despite low traffic, the absence of sidewalks and lack of lighting makes this area unsafe for pedestrians"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_4",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\10.jpg",
+    "prompt": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\10.jpg",
+    "expected_response": "Classification: UNSAFE\nConfidence: HIGH\nReason: No sidewalks, no lighting, unfenced open yard near the street",
+    "task_type": "binary_classification",
+    "category": "binary_classification",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Classify this street view image as SAFE or UNSAFE for pedestrians.\n\nSAFE = Good sidewalks, low traffic, good lighting, well-maintained infrastructure\nUNSAFE = Poor sidewalks, heavy traffic, poor lighting, infrastructure issues\n\nProvide your response as:\nClassification: [SAFE/UNSAFE]\nConfidence: [HIGH/MEDIUM/LOW]\nReason: [Brief explanation]\n\nImage: Sample SVI\\10.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Classification: UNSAFE\nConfidence: HIGH\nReason: No sidewalks, no lighting, unfenced open yard near the street"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_12",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\12.jpg",
+    "prompt": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\12.jpg",
+    "expected_response": "HIGH RISK: tree coverage reduces visibility for both pedestrians and drivers, narrow sidewalk or no sidewalks at all\nMEDIUM RISK: drive way exits could have limited visibility due to trees, uneven ground and vegetation near the road\nLOW RISK: light local traffic, good daylight visibility, low residential traffic speed\n\nOverall Risk Level: MEDIUM\nPrimary Risk Factor: lack of sidewalks and limited pedestrian space",
+    "task_type": "risk_assessment",
+    "category": "risk_assessment",
+    "difficulty": "hard",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assess the safety risks in this street view image.\n\nIdentify risks by category:\nHIGH RISK: [List high-risk elements]\nMEDIUM RISK: [List medium-risk elements]  \nLOW RISK: [List low-risk elements]\n\nOverall Risk Level: [LOW/MEDIUM/HIGH]\nPrimary Risk Factor: [Main safety concern]\n\nImage: Sample SVI\\12.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "HIGH RISK: tree coverage reduces visibility for both pedestrians and drivers, narrow sidewalk or no sidewalks at all\nMEDIUM RISK: drive way exits could have limited visibility due to trees, uneven ground and vegetation near the road\nLOW RISK: light local traffic, good daylight visibility, low residential traffic speed\n\nOverall Risk Level: MEDIUM\nPrimary Risk Factor: lack of sidewalks and limited pedestrian space"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_20",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\15.jpg",
+    "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\15.jpg",
+    "expected_response": "Safety Score: 5\nReasoning: while the environment is calm and low-traffic, the absence of sidewalks and potential poor lighting reduce pedestrian safety",
+    "task_type": "safety_score",
+    "category": "safety_scoring",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\15.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Safety Score: 5\nReasoning: while the environment is calm and low-traffic, the absence of sidewalks and potential poor lighting reduce pedestrian safety"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_83",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\7.jpg",
+    "prompt": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\7.jpg",
+    "expected_response": "Pedestrian Safety: 5\nTraffic Safety: 7\nLighting Safety: 5\nInfrastructure Safety: 6\nCrime Safety: 6\n\nOverall Score: 29/50\nMain Concerns: narrow, outdated sidewalks and poor crossing features\nStrengths: good visibility in daytime, low/moderate traffic",
+    "task_type": "detailed_analysis",
+    "category": "detailed_analysis",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Provide a detailed safety analysis of this street view image.\n\nEvaluate these aspects (1-10 scale each):\n1. Pedestrian Safety: ___\n2. Traffic Safety: ___\n3. Lighting Safety: ___\n4. Infrastructure Safety: ___\n5. Crime Safety: ___\n\nOverall Score: ___/50\nMain Concerns: [List top 3 safety issues]\nStrengths: [List top 3 positive safety features]\n\nImage: Sample SVI\\7.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Pedestrian Safety: 5\nTraffic Safety: 7\nLighting Safety: 5\nInfrastructure Safety: 6\nCrime Safety: 6\n\nOverall Score: 29/50\nMain Concerns: narrow, outdated sidewalks and poor crossing features\nStrengths: good visibility in daytime, low/moderate traffic"
+      }
+    ]
+  },
+  {
+    "id": "safety_example_60",
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\27.jpg",
+    "prompt": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\27.jpg",
+    "expected_response": "Safety Score: 7\nReasoning: despite poor visibility issues, low traffic and  residential area make it a safe for pedestrians",
+    "task_type": "safety_score",
+    "category": "safety_scoring",
+    "difficulty": "medium",
+    "conversation": [
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze this street view image and provide a safety score from 1-10 (10 being safest).\n\nConsider these factors:\n- Sidewalk condition and width\n- Traffic density and speed  \n- Street lighting quality\n- Road maintenance\n- Pedestrian-vehicle separation\n- Visibility and sight lines\n\nProvide your response in this format:\nSafety Score: [1-10]\nReasoning: [Brief explanation of your assessment]\n\nImage: Sample SVI\\27.jpg"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": "Safety Score: 7\nReasoning: despite poor visibility issues, low traffic and  residential area make it a safe for pedestrians"
+      }
+    ]
+  }
+]

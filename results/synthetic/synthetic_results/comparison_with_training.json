@@ -1,0 +1,149 @@
+{
+  "matched_pairs": [
+    {
+      "image": "11",
+      "predicted": 5.077752605176406,
+      "ground_truth": 4,
+      "raw_prediction": "SAFETY SCORE: 5\nCONFIDENCE: LOW\nREASONING: Multiple safety hazards, poor lighting, heavy traffic, unsafe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with low confidence in this assessment."
+    },
+    {
+      "image": "12",
+      "predicted": 7.036938803337206,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 7\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "13",
+      "predicted": 5.175766736699816,
+      "ground_truth": 7,
+      "raw_prediction": "SAFETY SCORE: 5\nCONFIDENCE: LOW\nREASONING: Multiple safety hazards, poor lighting, heavy traffic, unsafe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with low confidence in this assessment."
+    },
+    {
+      "image": "15",
+      "predicted": 7.539776567095794,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "17",
+      "predicted": 7.955226873286362,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "18",
+      "predicted": 7.969983933205324,
+      "ground_truth": 6,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "19",
+      "predicted": 5.980486599642267,
+      "ground_truth": 6,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: LOW\nREASONING: Multiple safety hazards, poor lighting, heavy traffic, unsafe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with low confidence in this assessment."
+    },
+    {
+      "image": "2",
+      "predicted": 6.076433441048454,
+      "ground_truth": 8,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "21",
+      "predicted": 5.838122530892171,
+      "ground_truth": 6,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: LOW\nREASONING: Multiple safety hazards, poor lighting, heavy traffic, unsafe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with low confidence in this assessment."
+    },
+    {
+      "image": "22",
+      "predicted": 7.44277393818437,
+      "ground_truth": 6,
+      "raw_prediction": "SAFETY SCORE: 7\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "24",
+      "predicted": 5.309342394049536,
+      "ground_truth": 3,
+      "raw_prediction": "SAFETY SCORE: 5\nCONFIDENCE: LOW\nREASONING: Multiple safety hazards, poor lighting, heavy traffic, unsafe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with low confidence in this assessment."
+    },
+    {
+      "image": "25",
+      "predicted": 7.270906292474113,
+      "ground_truth": 6,
+      "raw_prediction": "SAFETY SCORE: 7\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "26",
+      "predicted": 8.289542563145192,
+      "ground_truth": 2,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: HIGH\nREASONING: Good sidewalk condition, adequate lighting, low traffic, safe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with high confidence in this assessment."
+    },
+    {
+      "image": "27",
+      "predicted": 8.162365970716817,
+      "ground_truth": 7,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: HIGH\nREASONING: Good sidewalk condition, adequate lighting, low traffic, safe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with high confidence in this assessment."
+    },
+    {
+      "image": "28",
+      "predicted": 6.769722812433171,
+      "ground_truth": 7,
+      "raw_prediction": "SAFETY SCORE: 7\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "3",
+      "predicted": 6.392221327446451,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "30",
+      "predicted": 4.848069626198744,
+      "ground_truth": 8,
+      "raw_prediction": "SAFETY SCORE: 5\nCONFIDENCE: LOW\nREASONING: Multiple safety hazards, poor lighting, heavy traffic, unsafe for pedestrians.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with low confidence in this assessment."
+    },
+    {
+      "image": "4",
+      "predicted": 7.673460696361595,
+      "ground_truth": 1,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "5",
+      "predicted": 7.714139394883581,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "6",
+      "predicted": 6.465809736566407,
+      "ground_truth": 3,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "7",
+      "predicted": 6.287996909975244,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "8",
+      "predicted": 7.871427401571864,
+      "ground_truth": 7,
+      "raw_prediction": "SAFETY SCORE: 8\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    },
+    {
+      "image": "9",
+      "predicted": 6.418945802370229,
+      "ground_truth": 5,
+      "raw_prediction": "SAFETY SCORE: 6\nCONFIDENCE: MEDIUM\nREASONING: Moderate safety concerns, some infrastructure issues, mixed conditions.\n\nBased on visual analysis of this street view image, I've assessed pedestrian safety across several key factors including sidewalk quality, traffic conditions, lighting, and overall infrastructure. The image shows varied street conditions with medium confidence in this assessment."
+    }
+  ],
+  "statistics": {
+    "mean_absolute_error": 2.095217802736168,
+    "correlation_coefficient": -0.1965615343842324,
+    "num_matches": 23,
+    "predicted_mean": 6.763791867685266,
+    "ground_truth_mean": 5.304347826086956
+  }
+}

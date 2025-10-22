@@ -2,6 +2,7 @@ torch>=2.0.0
 soundfile>=0.12.1
 torchvision>=0.15.0
 opencv-python>=4.8.1.78
+Pillow>=9.0.0
 librosa>=0.10.1
 pytorch_warmup
 transformers
@@ -12,3 +13,8 @@ accelerate
 pydantic
 resampy
 torchlibrosa
+
+# Add PEFT and TRL for fine-tuning Qwen VLM
+einops  # already present
+peft>=0.6.0
+trl>=0.4.0

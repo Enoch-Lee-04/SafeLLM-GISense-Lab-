@@ -1,0 +1,417 @@
+{
+  "safety_scores": {
+    "1": {
+      "image_path": "data\\samples\\Sample SVI\\1.jpg",
+      "wins": 2,
+      "total_comparisons": 40,
+      "win_percentage": 0.05,
+      "safety_score": 5.0
+    },
+    "10": {
+      "image_path": "data\\samples\\Sample SVI\\10.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "11": {
+      "image_path": "data\\samples\\Sample SVI\\11.jpg",
+      "wins": 2,
+      "total_comparisons": 40,
+      "win_percentage": 0.05,
+      "safety_score": 5.0
+    },
+    "12": {
+      "image_path": "data\\samples\\Sample SVI\\12.jpg",
+      "wins": 3,
+      "total_comparisons": 40,
+      "win_percentage": 0.075,
+      "safety_score": 7.5
+    },
+    "13": {
+      "image_path": "data\\samples\\Sample SVI\\13.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "14": {
+      "image_path": "data\\samples\\Sample SVI\\14.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "15": {
+      "image_path": "data\\samples\\Sample SVI\\15.jpg",
+      "wins": 3,
+      "total_comparisons": 40,
+      "win_percentage": 0.075,
+      "safety_score": 7.5
+    },
+    "16": {
+      "image_path": "data\\samples\\Sample SVI\\16.jpg",
+      "wins": 2,
+      "total_comparisons": 40,
+      "win_percentage": 0.05,
+      "safety_score": 5.0
+    },
+    "17": {
+      "image_path": "data\\samples\\Sample SVI\\17.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "18": {
+      "image_path": "data\\samples\\Sample SVI\\18.jpg",
+      "wins": 3,
+      "total_comparisons": 40,
+      "win_percentage": 0.075,
+      "safety_score": 7.5
+    },
+    "19": {
+      "image_path": "data\\samples\\Sample SVI\\19.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "2": {
+      "image_path": "data\\samples\\Sample SVI\\2.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "20": {
+      "image_path": "data\\samples\\Sample SVI\\20.jpg",
+      "wins": 3,
+      "total_comparisons": 40,
+      "win_percentage": 0.075,
+      "safety_score": 7.5
+    },
+    "21": {
+      "image_path": "data\\samples\\Sample SVI\\21.jpg",
+      "wins": 4,
+      "total_comparisons": 40,
+      "win_percentage": 0.1,
+      "safety_score": 10.0
+    },
+    "22": {
+      "image_path": "data\\samples\\Sample SVI\\22.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "23": {
+      "image_path": "data\\samples\\Sample SVI\\23.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "24": {
+      "image_path": "data\\samples\\Sample SVI\\24.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "25": {
+      "image_path": "data\\samples\\Sample SVI\\25.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "26": {
+      "image_path": "data\\samples\\Sample SVI\\26.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "27": {
+      "image_path": "data\\samples\\Sample SVI\\27.jpg",
+      "wins": 2,
+      "total_comparisons": 40,
+      "win_percentage": 0.05,
+      "safety_score": 5.0
+    },
+    "28": {
+      "image_path": "data\\samples\\Sample SVI\\28.jpg",
+      "wins": 1,
+      "total_comparisons": 40,
+      "win_percentage": 0.025,
+      "safety_score": 2.5
+    },
+    "29": {
+      "image_path": "data\\samples\\Sample SVI\\29.jpg",
+      "wins": 2,
+      "total_comparisons": 40,
+      "win_percentage": 0.05,
+      "safety_score": 5.0
+    },
+    "3": {
+      "image_path": "data\\samples\\Sample SVI\\3.jpg",
+      "wins": 2,
+      "total_comparisons": 40,
+      "win_percentage": 0.05,
+      "safety_score": 5.0
+    },
+    "30": {
+      "image_path": "data\\samples\\Sample SVI\\30.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    },
+    "4": {
+      "image_path": "data\\samples\\Sample SVI\\4.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    },
+    "5": {
+      "image_path": "data\\samples\\Sample SVI\\5.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    },
+    "6": {
+      "image_path": "data\\samples\\Sample SVI\\6.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    },
+    "7": {
+      "image_path": "data\\samples\\Sample SVI\\7.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    },
+    "8": {
+      "image_path": "data\\samples\\Sample SVI\\8.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    },
+    "9": {
+      "image_path": "data\\samples\\Sample SVI\\9.jpg",
+      "wins": 0,
+      "total_comparisons": 40,
+      "win_percentage": 0.0,
+      "safety_score": 0.0
+    }
+  },
+  "comparisons": {
+    "1_vs_12": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "1"
+    },
+    "12_vs_27": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "12"
+    },
+    "21_vs_4": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "21"
+    },
+    "12_vs_22": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "12"
+    },
+    "1_vs_4": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "1"
+    },
+    "23_vs_27": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "23"
+    },
+    "17_vs_9": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "17"
+    },
+    "14_vs_17": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "14"
+    },
+    "10_vs_26": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "10"
+    },
+    "15_vs_19": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "15"
+    },
+    "25_vs_25": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "25"
+    },
+    "16_vs_3": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "16"
+    },
+    "26_vs_6": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "26"
+    },
+    "18_vs_4": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "18"
+    },
+    "27_vs_4": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "27"
+    },
+    "24_vs_28": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "24"
+    },
+    "18_vs_2": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "18"
+    },
+    "27_vs_28": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "27"
+    },
+    "11_vs_14": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "11"
+    },
+    "2_vs_9": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "2"
+    },
+    "20_vs_25": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "20"
+    },
+    "3_vs_30": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "3"
+    },
+    "21_vs_9": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "21"
+    },
+    "21_vs_30": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "21"
+    },
+    "3_vs_3": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "3"
+    },
+    "15_vs_22": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "15"
+    },
+    "11_vs_20": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "11"
+    },
+    "12_vs_23": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "12"
+    },
+    "28_vs_7": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "28"
+    },
+    "15_vs_24": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "15"
+    },
+    "22_vs_7": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "22"
+    },
+    "20_vs_6": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "20"
+    },
+    "29_vs_6": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "29"
+    },
+    "18_vs_30": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "18"
+    },
+    "20_vs_22": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "20"
+    },
+    "21_vs_28": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "21"
+    },
+    "13_vs_23": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "13"
+    },
+    "19_vs_30": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "19"
+    },
+    "29_vs_9": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "29"
+    },
+    "16_vs_23": {
+      "score1": 0.0,
+      "score2": 0.0,
+      "winner": "16"
+    }
+  },
+  "total_pairs": 40
+}
