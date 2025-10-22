@@ -97,6 +97,16 @@ huggingface/
 transformers_cache/
 
 # ============================================================
+# API Keys and Secrets (NEVER COMMIT)
+# ============================================================
+API_KEY_*
+.env
+.env.*
+*.key
+*_key.txt
+secrets.json
+
+# ============================================================
 # Data Files (optional - uncomment to ignore)
 # ============================================================
 # Uncomment if you don't want to commit audio/image data
