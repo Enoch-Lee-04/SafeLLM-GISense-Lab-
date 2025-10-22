@@ -104,3 +104,4 @@ Low traffic volume. Main concern is limited nighttime lighting.
 ✅ **Template Removal**: Working - filters instructional text  
 ✅ **Focused Output**: Working - uses greedy decoding + penalties
 
+
