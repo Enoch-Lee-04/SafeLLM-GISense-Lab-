@@ -1,0 +1,64 @@
+===============================================
+QUICK COMMIT GUIDE - Ready to Commit!
+===============================================
+
+CURRENT STATUS:
+✅ All changes staged with "git add -A"
+✅ Large files excluded via .gitignore
+✅ Repository organized and clean
+
+===============================================
+RECOMMENDED COMMIT COMMAND:
+===============================================
+
+cd "C:\Users\enoch\OneDrive\Documents\Safer Place\Soundscape-to-Image"
+
+git commit -m "Fix: LLM prompt issues - missing risk outputs and rambling
+
+- Updated prompts to match training data format
+- Added risk level extraction function  
+- Changed to greedy decoding to prevent rambling
+- Added stop phrases detection for cleaner outputs
+- Enhanced template text removal
+- Updated .gitignore to exclude large files
+- Added testing and documentation"
+
+===============================================
+WHAT'S BEING COMMITTED:
+===============================================
+
+NEW FILES:
+  - PROMPT_FIXES_SUMMARY.md
+  - BEFORE_AFTER_COMPARISON.md  
+  - HOW_TO_TEST.md
+  - test_prompt_fixes.py
+  - COMMIT_SUMMARY.md
+  - Various config and script files
+
+MODIFIED FILES:
+  - scripts/evaluation/fine_tuned_eval.py (MAIN FIX)
+  - .gitignore (UPDATED)
+  - requirements.txt
+
+IGNORED (not committed):
+  - venv_main/, venv_qwen/, venv_visual/
+  - wandb/
+  - models/checkpoints/
+  - *.xlsx results
+  - __pycache__/
+  - *.safetensors, *.bin, *.pt
+
+===============================================
+AFTER COMMITTING:
+===============================================
+
+Push to remote:
+  git push origin main
+
+Or view the commit:
+  git log -1
+  git show --stat
+
+===============================================
+
+
