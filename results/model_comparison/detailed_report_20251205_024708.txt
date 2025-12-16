@@ -1,0 +1,110 @@
+================================================================================
+MODEL COMPARISON DETAILED REPORT
+================================================================================
+
+Generated: 2025-12-05 02:47:09
+Test set size: 11
+Models compared: gpt4o-mini-ft, qwen2vl-ft
+
+================================================================================
+OVERALL METRICS
+================================================================================
+
+Model                          MAE          RMSE         Acc@1        Acc@2       
+------------------------------------------------------------------------------
+gpt4o-mini-ft                  1.6000       2.0000       50.00%       80.00%      
+qwen2vl-ft                     1.0909       1.2060       81.82%       100.00%     
+
+
+================================================================================
+DETAILED ANALYSIS: gpt4o-mini-ft
+================================================================================
+
+Valid predictions: 10/10
+Mean error: 1.6000
+Median error: 2.0000
+Min error: 0.0000
+Max error: 4.0000
+
+Best predictions (lowest error):
+------------------------------------------------------------------------------
+  Image: 1.jpg
+  Expected: 7.00, Predicted: 7.00, Error: 0.00
+
+  Image: 12.jpg
+  Expected: 5.00, Predicted: 5.00, Error: 0.00
+
+  Image: 20.jpg
+  Expected: 7.00, Predicted: 6.00, Error: 1.00
+
+  Image: 6.jpg
+  Expected: 3.00, Predicted: 4.00, Error: 1.00
+
+  Image: 9.jpg
+  Expected: 5.00, Predicted: 4.00, Error: 1.00
+
+
+Worst predictions (highest error):
+------------------------------------------------------------------------------
+  Image: 15.jpg
+  Expected: 5.00, Predicted: 3.00, Error: 2.00
+
+  Image: 23.jpg
+  Expected: 9.00, Predicted: 7.00, Error: 2.00
+
+  Image: 30.jpg
+  Expected: 8.00, Predicted: 6.00, Error: 2.00
+
+  Image: 28.jpg
+  Expected: 7.00, Predicted: 4.00, Error: 3.00
+
+  Image: 26.jpg
+  Expected: 2.00, Predicted: 6.00, Error: 4.00
+
+
+================================================================================
+DETAILED ANALYSIS: qwen2vl-ft
+================================================================================
+
+Valid predictions: 11/11
+Mean error: 1.0909
+Median error: 1.0000
+Min error: 0.0000
+Max error: 2.0000
+
+Best predictions (lowest error):
+------------------------------------------------------------------------------
+  Image: 18.jpg
+  Expected: 6.00, Predicted: 6.00, Error: 0.00
+
+  Image: 1.jpg
+  Expected: 7.00, Predicted: 8.00, Error: 1.00
+
+  Image: 12.jpg
+  Expected: 5.00, Predicted: 6.00, Error: 1.00
+
+  Image: 15.jpg
+  Expected: 5.00, Predicted: 6.00, Error: 1.00
+
+  Image: 20.jpg
+  Expected: 7.00, Predicted: 6.00, Error: 1.00
+
+
+Worst predictions (highest error):
+------------------------------------------------------------------------------
+  Image: 28.jpg
+  Expected: 7.00, Predicted: 6.00, Error: 1.00
+
+  Image: 6.jpg
+  Expected: 3.00, Predicted: 4.00, Error: 1.00
+
+  Image: 9.jpg
+  Expected: 5.00, Predicted: 6.00, Error: 1.00
+
+  Image: 26.jpg
+  Expected: 2.00, Predicted: 4.00, Error: 2.00
+
+  Image: 30.jpg
+  Expected: 8.00, Predicted: 6.00, Error: 2.00
+
+

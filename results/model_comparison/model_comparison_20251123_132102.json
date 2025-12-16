@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-23T13:21:02.932457",
+  "models": [
+    "gpt4o-mini-ft",
+    "qwen2vl-ft"
+  ],
+  "test_size": 11,
+  "results": {
+    "gpt4o-mini-ft": "See gpt4o-mini-ft_results_20251123_132102.json",
+    "qwen2vl-ft": "See qwen2vl-ft_results_20251123_132102.json"
+  },
+  "metrics": {
+    "gpt4o-mini-ft": {
+      "total_examples": 10,
+      "valid_examples": 10,
+      "mae": 1.6,
+      "rmse": 2.0,
+      "accuracy_1point": 0.5,
+      "accuracy_2point": 0.8
+    },
+    "qwen2vl-ft": {
+      "total_examples": 11,
+      "valid_examples": 11,
+      "mae": 1.0909090909090908,
+      "rmse": 1.2060453783110545,
+      "accuracy_1point": 0.8181818181818182,
+      "accuracy_2point": 1.0
+    }
+  }
+}

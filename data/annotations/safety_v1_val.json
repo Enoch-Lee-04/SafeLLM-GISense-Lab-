@@ -1,0 +1,52 @@
+{
+  "version": "safety_v1",
+  "split": "val",
+  "created_at": "2025-12-05T02:24:10.032610",
+  "description": "Validation split for street view safety assessment",
+  "items": [
+    {
+      "image_path": "images/4.jpg",
+      "score": 1.0,
+      "label": "very_unsafe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\4.jpg"
+      },
+      "reasons": [
+        "while there is daylight visibility",
+        "the absence of sidewalks",
+        "poor infrastructure",
+        "isolation",
+        "and no nighttime safety make this environment extremely dangerous for pedestrians"
+      ]
+    },
+    {
+      "image_path": "images/5.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\5.jpg"
+      },
+      "reasons": [
+        "daylight visibility and quiet traffic conditions help",
+        "but missing pedestrian infrastructure and lighting reduce overall safety"
+      ]
+    },
+    {
+      "image_path": "images/6.jpg",
+      "score": 3.0,
+      "label": "unsafe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\6.jpg"
+      },
+      "reasons": [
+        "daytime visibility helps slightly",
+        "but construction hazards",
+        "lack of safe walkways",
+        "and potential nighttime issues make this unsafe for pedestrians"
+      ]
+    }
+  ]
+}

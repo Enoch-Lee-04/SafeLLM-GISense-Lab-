@@ -1,0 +1,47 @@
+{
+  "version": "safety_v1",
+  "split": "test",
+  "created_at": "2025-12-05T02:24:10.032610",
+  "description": "Test split for street view safety assessment",
+  "items": [
+    {
+      "image_path": "images/7.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\7.jpg"
+      },
+      "reasons": [
+        "the environment is moderately safe during the day with sidewalks and light traffic",
+        "but outdated infrastructure and limited crossings keep safety low for pedestrians"
+      ]
+    },
+    {
+      "image_path": "images/8.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\8.jpg"
+      },
+      "reasons": [
+        "the sidewalks provides safe pedestrian path",
+        "but lack of crossings and visible lighting lowers the score"
+      ]
+    },
+    {
+      "image_path": "images/9.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\9.jpg"
+      },
+      "reasons": [
+        "low traffic helps safety",
+        "but missing sidewalks and no streetlights lower pedestrian safety significantly"
+      ]
+    }
+  ]
+}

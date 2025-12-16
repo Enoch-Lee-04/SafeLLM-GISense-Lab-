@@ -1,0 +1,123 @@
+{
+  "model": "qwen2vl-ft",
+  "metrics": {
+    "total_examples": 11,
+    "valid_examples": 11,
+    "mae": 1.0909090909090908,
+    "rmse": 1.2060453783110545,
+    "accuracy_1point": 0.8181818181818182,
+    "accuracy_2point": 1.0
+  },
+  "results": [
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\1.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\1.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 7/10\nReason: [\"the environment is moderately safe during the day with sidewalks and light traffic\", \"but outdated infrastructure and limited crossings keep safety low for pedestrians\", \"Neighborhood provide limited speed limit and natural surveillance\"]",
+      "expected_score": 7.0,
+      "model_response": "Score:8 / 10 \n Reason :[\"The road appears well-maintained with no noticeable potholes.\",\"There's ample lighting for clear vision during daytime hours.\",\"No signs indicating any immediate danger such as debris, construction work etc.\".] \n\nThis area seems relatively quiet without much social interaction happening around it right now which makes me feel more secure walking through here compared other streets I've seen before that seem crowded due to high footfall especially near schools like mine (which has been quite busy recently). The houses appear clean but there isn't anything particularly unusual about them either so overall feels pretty normal despite being residential neighborhood.\nIt looks very peaceful out today!",
+      "predicted_score": 8.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\12.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\12.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 5/10\nReason: [\"while traffic speed is low\", \"narrow sidewalks\", \"poor lighting\", \"and visibility issues make it unsafe for pedestrians\", \"especially at night\"]",
+      "expected_score": 5.0,
+      "model_response": "Score:6 / 10 \n Reason : The house appears well-maintained with no signs of neglect such as cracks or peeling paint that could indicate structural issues.\n  \nThe neighborhood seems quiet without any immediate danger signals like suspicious activities by individuals outside buildings (e.g., loitering).\n   \nThere's ample natural light suggesting it might be daytime but there isn't enough information about weather conditions for an accurate evaluation regarding potential hazards due to rain/snow/etc.. \n\nNo significant social interaction detected which may suggest low crime rates; however, lack of pedestrian movement can also imply lower risk levels since they're less likely targets than those who live nearby during peak hours if someone were planning something malicious against them while out walking around their home area alone.\n\n\nOverall, despite being relatively peaceful overall environment suggests moderate level security measures have been taken including proper lighting & fences surrounding property boundaries ensuring some degree of protection even though it\u2019s still risky considering its residential nature.",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\15.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\15.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 5/10\nReason: [\"while the environment is calm and low-traffic\", \"the absence of sidewalks and potential poor lighting reduce pedestrian safety\"]",
+      "expected_score": 5.0,
+      "model_response": "Score:6 / 10 \n Reason : The road appears clean with no noticeable debris such as trash cans that could pose hazards for drivers.\n  \nThe sidewalk seems well-maintained but there's an absence of pedestrian crossing signs which can be dangerous if they're missing due to vandalism like graffiti covering them up completely (not shown).\n   \nThere isn't any immediate indication suggesting potential dangers related to social activities; however it does have some trees around so potentially more crime might occur during nighttime hours without proper lighting conditions leading towards increased risk factors overall compared other streets nearby.\n\n\nNo significant obstacles were observed along side roads including fences etc., making these parts relatively safer than others within similar urban environments despite being residential area close proximity to commercial buildings indicating higher risks associated with vehicular accidents especially given its location near busy shopping centers. \n\nOverall low scores considering both maintenance issues & lack of clear public awareness regarding safety measures required by residents living here alongside high-risk environment surrounding properties likely contributing further increase accident rates among all users sharing",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\18.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\18.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 6/10\nReason: [\"sidewalks and streetlights helps\", \"but the dominance of vehicles\", \"wide lanes\", \"and unclear crossings make this environment decently safe for pedestrians\"]",
+      "expected_score": 6.0,
+      "model_response": "Score:6 / 10 \n Reason : The road appears clean with no noticeable debris like leaves that could pose hazards for drivers.\n  \nThe lighting seems adequate but there's some overexposure due possibly because it was taken during daylight hours which can affect color accuracy slightly; however, overall brightness levels seem balanced without harsh reflections obscuring objects clearly enough as well (no glare).\n\nThere\u2019s minimal social interaction seen here \u2013 just cars parked along both sides suggesting low pedestrian footfall despite being an urban area likely frequented by commuters daily based upon its appearance.\n\nNo significant maintenance issues such as potholes were observed although minor wear & tear might be expected given age-related conditions typical across older city streets.\n\nOverall, while lacking vibrant colors typically associated with high-end commercial districts, the scene still presents itself relatively secure considering all factors considered within reasonable limits compared against other cities' environments under similar weather scenarios.\n\n\nNote:** This analysis assumes ideal circumstances regarding exposure quality since actual outdoor photography often suffers more than indoor images especially",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\20.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 7/10\nReason: [\"quiet residential area with low traffic and good visibility\", \"but lack of street light makes it unsafe at night\"]",
+      "expected_score": 7.0,
+      "model_response": "Score:6 / 10 \n Reason : The overall lighting conditions appear dim with some overcast skies which can make it difficult for drivers to see clearly ahead.\n  \nThe road surface looks well-maintained but there's no clear indication that any significant maintenance has been done recently as evidenced by patches missing concrete pavement near houses along both sides of the road (which could be dangerous if they were unstable).\n   \nThere isn't much social interaction evident; however, given its rural setting without many buildings nearby other than these two homes, pedestrian movement might still occur occasionally due to local residents going about their daily activities like walking dogs etc., so we'll give credit towards potential low-risk scenarios here since most roads don\u2019t have high foottraffic unless you're talking about major thoroughfares leading into town centers such as shopping malls & office parks often seen around larger cities/countryside towns respectively).\n\nHowever considering all factors together I'd say an average risk level would apply based upon how far away our eyes need to",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\23.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\23.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 9/10\nReason: [\"nice residential area with well-maintained buildings and sidewalks\", \"Overall assessment based on visible features\"]",
+      "expected_score": 9.0,
+      "model_response": "Score:8 / 10 \n Reason :[\"The area appears well-maintained with clean surroundings\",\"There's no immediate indication that there might be any hazards such as cracks or debris\"]\n The scene looks peaceful without signs indicating potential dangers like potholes.\n There isn't much social interaction happening which could indicate low risk for accidents due to lack of human movement around it,\n It seems quiet enough so we can assume minimal risks associated with noise pollution;\n No obvious construction work taking place; hence little chance of structural collapse causing damage;\n\nTherefore overall I would rate its security level high considering all factors taken into account except possible minor issues related to maintenance but these seem negligible compared other aspects mentioned above .",
+      "predicted_score": 8.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\26.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\26.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 2/10\nReason: [\"while daytime visibility is decent\", \"the lack of pedestrians infrastructures\", \"low surveillance\", \"and unsafe nighttime conditions make this a poor environment for walking\"]",
+      "expected_score": 2.0,
+      "model_response": "Score: 4/\n Reason: [[\"The area appears empty with no immediate signs indicating danger\"], \n          [\"There's minimal social interaction such as pedestrian movement\"]],  \n         [[\"No clear indication that there might be any potential hazards like cracks or debris\" ]]] \n\nThis low-scoring environment suggests it could potentially pose risks if left unattended by residents due its lackluster maintenance level (e.g., missing fence panels). However, without more context about other factors contributing towards overall security risk within an urban setting, we can't confidently assign higher scores for these aspects alone.\nPlease note I am evaluating based solely upon visual observations provided here; actual conditions may vary depending on additional information available outside my scope which isn\u2019t captured herein.",
+      "predicted_score": 4.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\28.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\28.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 7/10\nReason: [\"quiet residential setting improves safety\", \"but without sidewalks or lighting\", \"it remains unsafe for pedestrians\", \"especially at night\"]",
+      "expected_score": 7.0,
+      "model_response": "Score: 6 / 10 \n Reason: The house appears well-maintained with clean surroundings but lacks clear signs indicating pedestrian access for children under five years old (e.g., no designated play area). Additionally, there's limited social interaction around it which could be concerning if someone were nearby.\n  \nThe lighting seems adequate without harsh reflections that might indicate potential hazards like glare causing eye strain during outdoor activities such as playing sports outside near trees/shadows cast by objects can also pose risks depending upon their size relative to an individual\u2019s head height while walking through them safely navigating streets requires attention both visually & physically ensuring they have enough space between themselves & obstacles ahead. \n\nThere isn't any immediate indication about road conditions being hazardous due to potholes etc; however, considering its location within residential neighborhood, drivers should exercise caution especially after heavy rain/snowfall since these may affect pavement condition significantly affecting vehicle stability leading towards accidents involving personal injury/mortality risk factors include speed limit enforcement issues related to local",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\30.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\30.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 8/10\nReason: [\"sidewalks and urban oversight improve safety\", \"but conflict with parked vehicles reduce comfort and protection\"]",
+      "expected_score": 8.0,
+      "model_response": "Score:6 / 10 \n Reason : The building appears well-maintained with clean windows but there's no clear indication that it has been recently cleaned due to its brick exterior which can accumulate dirt over long periods without proper maintenance.\n  \nThe parking lot seems relatively empty except for two cars parked close together suggesting limited social interaction around these buildings during normal business hours (no evident pedestrian footprints). There isn't any immediate danger like an active crime scene nearby as far we could see; however, if someone were looking outwards they might notice some signs indicating potential dangers such as cracks near window frames hinting towards structural issues requiring attention by authorities before entering premises safely.\n\n\nNo obvious hazards related directly to road conditions appear within our field-of-vision including potholes etc., so overall risk remains low based solely upon visual inspection alone though further investigation would be prudent given lack of context about other parts outside frame. \n\nSafety measures include adequate lighting provided through large glass panes above entrance doors ensuring sufficient illumination",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\6.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\6.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 3/10\nReason: [\"daytime visibility helps slightly\", \"but construction hazards\", \"lack of safe walkways\", \"and potential nighttime issues make this unsafe for pedestrians\"]",
+      "expected_score": 3.0,
+      "model_response": "Score: 4/\n Reason: [[\"The construction site appears active with workers engaged\"], \n        [\"There's no pedestrian footpath along either side\"]] \n\nThis area seems relatively quiet compared to other parts that I've seen before but it could be dangerous if there were any accidents happening nearby due to lack of proper warning signs for drivers passing by.\n  \nIt also looks like some sort of underground utility work going down into an adjacent building which might pose risks as well since we don't have clear information about its location relative to public spaces such as roadsides etc., so overall caution should still apply here too!",
+      "predicted_score": 4.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\9.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\9.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 5/10\nReason: [\"low traffic helps safety\", \"but missing sidewalks and no streetlights lower pedestrian safety significantly\"]",
+      "expected_score": 5.0,
+      "model_response": "Score: 6 / 10 \n Reason: The overall lighting appears adequate but there's no clear indication that it would be dangerous for someone walking alone during nighttime hours.\n  \nThe road seems well-maintained with clean pavement without any noticeable potholes which suggests good conditions suitable enough even if some parts might have been damaged over years due to weathering effects like cracks etc., however these can't really impact pedestrian walkability significantly as long they're still passable by standard sized wheels (no large objects).\n   \nThere isn\u2019t much social interaction happening around; just two parked cars suggesting low human density so potential danger caused through crowd pressure doesn't seem likely either since we don\u2019t see many other individuals nearby besides those who live here already;\n    \nNo significant obstacles such as fences/bars/clearings obstructed views making navigation difficult especially considering how close roads get together near residential zones;\n\nHowever despite all above factors being favorable towards pedestrian comfort I'm giving an average rating because while everything looks fine right",
+      "predicted_score": 6.0,
+      "model_name": "Qwen2-VL-2B (fine-tuned)"
+    }
+  ]
+}

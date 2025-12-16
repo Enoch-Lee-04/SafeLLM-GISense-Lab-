@@ -1,0 +1,113 @@
+{
+  "model": "gpt4o-mini-ft",
+  "metrics": {
+    "total_examples": 10,
+    "valid_examples": 10,
+    "mae": 1.6,
+    "rmse": 2.0,
+    "accuracy_1point": 0.5,
+    "accuracy_2point": 0.8
+  },
+  "results": [
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\1.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\1.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 7/10\nReason: [\"the environment is moderately safe during the day with sidewalks and light traffic\", \"but outdated infrastructure and limited crossings keep safety low for pedestrians\", \"Neighborhood provide limited speed limit and natural surveillance\"]",
+      "expected_score": 7.0,
+      "model_response": "Score: 7/10\nReason: [\"Concerns: limited nighttime lighting and no crosswalks\", \"Strengths: wide sidewalks, good infrastructure maintenance, and effective visual separation between pedestrians and vehicles\"]",
+      "predicted_score": 7.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\12.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\12.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 5/10\nReason: [\"while traffic speed is low\", \"narrow sidewalks\", \"poor lighting\", \"and visibility issues make it unsafe for pedestrians\", \"especially at night\"]",
+      "expected_score": 5.0,
+      "model_response": "Score: 5/10\nReason: [\"Concerns: limited pedestrian infrastructure and nighttime lighting\", \"Strengths: residential oversight, low traffic speeds, and open visibility during the day\"]",
+      "predicted_score": 5.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\15.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\15.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 5/10\nReason: [\"while the environment is calm and low-traffic\", \"the absence of sidewalks and potential poor lighting reduce pedestrian safety\"]",
+      "expected_score": 5.0,
+      "model_response": "Score: 3/10\nReason: [\"Concerns: Very low visibility and lack of streetlight\", \"Strengths: Quiet low-traffic residential setting\"]",
+      "predicted_score": 3.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\20.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\20.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 7/10\nReason: [\"quiet residential area with low traffic and good visibility\", \"but lack of street light makes it unsafe at night\"]",
+      "expected_score": 7.0,
+      "model_response": "Score: 6/10\nReason: [\"low traffic helps\", \"but missing sidewalks and unclear visibility reduce pedestrian safety\"]",
+      "predicted_score": 6.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\23.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\Sample SVI\\23.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 9/10\nReason: [\"nice residential area with well-maintained buildings and sidewalks\", \"Overall assessment based on visible features\"]",
+      "expected_score": 9.0,
+      "model_response": "Score: 7/10\nReason: [\"Concerns: occasional fast traffic and limited daytime visibility\", \"Strengths: wide sidewalks, new pavement, great machine tree shade, and overall neighborhood safety\"]",
+      "predicted_score": 7.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\26.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\26.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 2/10\nReason: [\"while daytime visibility is decent\", \"the lack of pedestrians infrastructures\", \"low surveillance\", \"and unsafe nighttime conditions make this a poor environment for walking\"]",
+      "expected_score": 2.0,
+      "model_response": "Score: 6/10\nReason: [\"lacks street light but low traffic\", \"Overall assessment based on visible features\"]",
+      "predicted_score": 6.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\28.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\28.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 7/10\nReason: [\"quiet residential setting improves safety\", \"but without sidewalks or lighting\", \"it remains unsafe for pedestrians\", \"especially at night\"]",
+      "expected_score": 7.0,
+      "model_response": "Score: 4/10\nReason: [\"while pedestrians are separated from traffic, the outdated infrastructure and lack of visual surveillance reduce overall safety\", \"Overall assessment based on visible features\"]",
+      "predicted_score": 4.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\30.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\30.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 8/10\nReason: [\"sidewalks and urban oversight improve safety\", \"but conflict with parked vehicles reduce comfort and protection\"]",
+      "expected_score": 8.0,
+      "model_response": "Score: 6/10\nReason: [\"sidewalks and low traffic volume improve pedestrian safety, but lack of crossings and potential visibility issues at structures/landscaping lower the score\", \"Overall assessment based on visible features\"]",
+      "predicted_score": 6.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\6.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\6.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 3/10\nReason: [\"daytime visibility helps slightly\", \"but construction hazards\", \"lack of safe walkways\", \"and potential nighttime issues make this unsafe for pedestrians\"]",
+      "expected_score": 3.0,
+      "model_response": "Score: 4/10\nReason: [\"lack of sidewalks and poor pedestrian visibility make it unsafe despite low traffic\", \"Overall assessment based on visible features\"]",
+      "predicted_score": 4.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    },
+    {
+      "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\9.jpg",
+      "prompt": "Analyze this street view image and provide a safety score.\n\nImage: Sample SVI\\9.jpg",
+      "task_type": "safety_score",
+      "expected_response": "Score: 5/10\nReason: [\"low traffic helps safety\", \"but missing sidewalks and no streetlights lower pedestrian safety significantly\"]",
+      "expected_score": 5.0,
+      "model_response": "Score: 4/10\nReason: [\"despite low traffic, the absence of sidewalks and unclear lighting makes this place unsafe for pedestrians\", \"Overall assessment based on visible features\"]",
+      "predicted_score": 4.0,
+      "model_name": "GPT-4o-mini (fine-tuned)"
+    }
+  ]
+}

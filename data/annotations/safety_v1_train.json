@@ -1,0 +1,343 @@
+{
+  "version": "safety_v1",
+  "split": "train",
+  "created_at": "2025-12-05T02:24:10.032610",
+  "description": "Training split for street view safety assessment",
+  "items": [
+    {
+      "image_path": "images/1.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\1.jpg"
+      },
+      "reasons": [
+        "the environment is moderately safe during the day with sidewalks and light traffic",
+        "but outdated infrastructure and limited crossings keep safety low for pedestrians",
+        "Neighborhood provide limited speed limit and natural surveillance"
+      ]
+    },
+    {
+      "image_path": "images/10.jpg",
+      "score": 6.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\10.jpg"
+      },
+      "reasons": [
+        "despite sparse traffic",
+        "lack of light post makes nighttime visibility challenging"
+      ]
+    },
+    {
+      "image_path": "images/11.jpg",
+      "score": 4.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\11.jpg"
+      },
+      "reasons": [
+        "pedestrian exposure to heavy truck traffic",
+        "absence of safe crossings and sidewalks",
+        "ongoing construction"
+      ]
+    },
+    {
+      "image_path": "images/12.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\12.jpg"
+      },
+      "reasons": [
+        "while traffic speed is low",
+        "narrow sidewalks",
+        "poor lighting",
+        "and visibility issues make it unsafe for pedestrians",
+        "especially at night"
+      ]
+    },
+    {
+      "image_path": "images/13.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\13.jpg"
+      },
+      "reasons": [
+        "The sidewalk is wide and well maintained",
+        "the traffic seems low from the reflection of windows",
+        "The main drawback is the absence of visible streetlights and the lack of a buffer between pedestrians and vehicles"
+      ]
+    },
+    {
+      "image_path": "images/14.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\14.jpg"
+      },
+      "reasons": [
+        "Although no sidewalks",
+        "it's a residential area with low traffic and natural surveillance"
+      ]
+    },
+    {
+      "image_path": "images/15.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\15.jpg"
+      },
+      "reasons": [
+        "while the environment is calm and low-traffic",
+        "the absence of sidewalks and potential poor lighting reduce pedestrian safety"
+      ]
+    },
+    {
+      "image_path": "images/16.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\16.jpg"
+      },
+      "reasons": [
+        "many light post present but very empty surroundings with no sidewalks or surveillance",
+        "Overall assessment based on visible features"
+      ]
+    },
+    {
+      "image_path": "images/17.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\17.jpg"
+      },
+      "reasons": [
+        "while vehicle speeds are low",
+        "the absence of sidewalks and crosswalks makes pedestrian navigation unsafe",
+        "The area benefits slightly from business activity and lighting",
+        "but safety is compromised by design"
+      ]
+    },
+    {
+      "image_path": "images/18.jpg",
+      "score": 6.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\18.jpg"
+      },
+      "reasons": [
+        "sidewalks and streetlights helps",
+        "but the dominance of vehicles",
+        "wide lanes",
+        "and unclear crossings make this environment decently safe for pedestrians"
+      ]
+    },
+    {
+      "image_path": "images/19.jpg",
+      "score": 6.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\19.jpg"
+      },
+      "reasons": [
+        "the residential vibe supports safety",
+        "but lack of streetlight keep the area from being pedestrian-friendly"
+      ]
+    },
+    {
+      "image_path": "images/2.jpg",
+      "score": 8.0,
+      "label": "safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\2.jpg"
+      },
+      "reasons": [
+        "a safe pedestrian environment due to continuous sidewalks",
+        "low traffic",
+        "and natural surveillance from the apartment building",
+        "but minor issues exists with nighttime visibility"
+      ]
+    },
+    {
+      "image_path": "images/20.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\20.jpg"
+      },
+      "reasons": [
+        "quiet residential area with low traffic and good visibility",
+        "but lack of street light makes it unsafe at night"
+      ]
+    },
+    {
+      "image_path": "images/21.jpg",
+      "score": 6.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\21.jpg"
+      },
+      "reasons": [
+        "the sidewalks and residential density help pedestrian safety",
+        "but obstructions and missing crossing features prevent this from being a fully safe walking environment"
+      ]
+    },
+    {
+      "image_path": "images/22.jpg",
+      "score": 6.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\22.jpg"
+      },
+      "reasons": [
+        "low traffic speed helps safety",
+        "but the lack of pedestrian infrastructure and sight line obstructions from landscaping lower the score"
+      ]
+    },
+    {
+      "image_path": "images/23.jpg",
+      "score": 9.0,
+      "label": "safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\23.jpg"
+      },
+      "reasons": [
+        "nice residential area with well-maintained buildings and sidewalks",
+        "Overall assessment based on visible features"
+      ]
+    },
+    {
+      "image_path": "images/24.jpg",
+      "score": 3.0,
+      "label": "unsafe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\24.jpg"
+      },
+      "reasons": [
+        "low traffic helps pedestrian safety",
+        "but missing sidewalks",
+        "uneven roads",
+        "and lack of lighting infrastructure significantly lower safety"
+      ]
+    },
+    {
+      "image_path": "images/25.jpg",
+      "score": 6.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\25.jpg"
+      },
+      "reasons": [
+        "sidewalks and residential oversight improve safety",
+        "but crossing hazards and infrastructure wear keep this from being pedestrian-friendly"
+      ]
+    },
+    {
+      "image_path": "images/26.jpg",
+      "score": 2.0,
+      "label": "unsafe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\26.jpg"
+      },
+      "reasons": [
+        "while daytime visibility is decent",
+        "the lack of pedestrians infrastructures",
+        "low surveillance",
+        "and unsafe nighttime conditions make this a poor environment for walking"
+      ]
+    },
+    {
+      "image_path": "images/27.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\27.jpg"
+      },
+      "reasons": [
+        "sidewalk is missing by the roads but low traffic and residential area increases overall pedestrian safety",
+        "Overall assessment based on visible features"
+      ]
+    },
+    {
+      "image_path": "images/28.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\28.jpg"
+      },
+      "reasons": [
+        "quiet residential setting improves safety",
+        "but without sidewalks or lighting",
+        "it remains unsafe for pedestrians",
+        "especially at night"
+      ]
+    },
+    {
+      "image_path": "images/29.jpg",
+      "score": 7.0,
+      "label": "moderately_safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\29.jpg"
+      },
+      "reasons": [
+        "despite heavy traffic",
+        "the presence of wide sidewalks",
+        "crossings",
+        "and lighting make it a safe walking area"
+      ]
+    },
+    {
+      "image_path": "images/3.jpg",
+      "score": 5.0,
+      "label": "neutral",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\3.jpg"
+      },
+      "reasons": [
+        "low traffic helps",
+        "but without sidewalks",
+        "lighting",
+        "or visibility",
+        "the environment is unsafe for pedestrians"
+      ]
+    },
+    {
+      "image_path": "images/30.jpg",
+      "score": 8.0,
+      "label": "safe",
+      "metadata": {
+        "source": "GSV",
+        "original_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\30.jpg"
+      },
+      "reasons": [
+        "sidewalks and urban oversight improve safety",
+        "but conflict with parked vehicles reduce comfort and protection"
+      ]
+    }
+  ]
+}

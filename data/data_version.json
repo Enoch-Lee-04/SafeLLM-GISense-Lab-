@@ -1,0 +1,41 @@
+{
+    "version": "1.0.0",
+    "created_at": "2025-12-05",
+    "description": "Street view safety assessment dataset for VLM fine-tuning",
+    "manifests": {
+        "safety_v1": {
+            "train": "annotations/safety_v1_train.json",
+            "val": "annotations/safety_v1_val.json",
+            "test": "annotations/safety_v1_test.json",
+            "stats": {
+                "train": 24,
+                "val": 3,
+                "test": 3
+            }
+        }
+    },
+    "raw_data": {
+        "images": "raw/images/",
+        "audio": "raw/audio/",
+        "count": {
+            "images": 30,
+            "audio": 31
+        }
+    },
+    "processed_data": {
+        "openai_finetuning": "processed/openai_finetuning/",
+        "qwen_training": "processed/qwen_training/"
+    },
+    "changelog": [
+        {
+            "version": "1.0.0",
+            "date": "2025-12-05",
+            "changes": [
+                "Initial versioned data pipeline setup",
+                "Created manifest schema with validation",
+                "Added generators for OpenAI and Qwen formats",
+                "Converted existing data to safety_v1 manifests"
+            ]
+        }
+    ]
+}

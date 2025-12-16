@@ -1,0 +1,170 @@
+[
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\1.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 1.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"the environment is moderately safe during the day with sidewalks and light traffic\", \"but outdated infrastructure and limited crossings keep safety low for pedestrians\", \"Neighborhood provide limited speed limit and natural surveillance\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\10.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 10.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 6/10\nReason: [\"despite sparse traffic\", \"lack of light post makes nighttime visibility challenging\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\11.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 11.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 4/10\nReason: [\"pedestrian exposure to heavy truck traffic\", \"absence of safe crossings and sidewalks\", \"ongoing construction\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\12.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 12.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 5/10\nReason: [\"while traffic speed is low\", \"narrow sidewalks\", \"poor lighting\", \"and visibility issues make it unsafe for pedestrians\", \"especially at night\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\13.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 13.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"The sidewalk is wide and well maintained\", \"the traffic seems low from the reflection of windows\", \"The main drawback is the absence of visible streetlights and the lack of a buffer between pedestrians and vehicles\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\14.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 14.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"Although no sidewalks\", \"it's a residential area with low traffic and natural surveillance\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\15.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 15.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 5/10\nReason: [\"while the environment is calm and low-traffic\", \"the absence of sidewalks and potential poor lighting reduce pedestrian safety\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\16.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 16.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 5/10\nReason: [\"many light post present but very empty surroundings with no sidewalks or surveillance\", \"Overall assessment based on visible features\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\17.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 17.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 5/10\nReason: [\"while vehicle speeds are low\", \"the absence of sidewalks and crosswalks makes pedestrian navigation unsafe\", \"The area benefits slightly from business activity and lighting\", \"but safety is compromised by design\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\18.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 18.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 6/10\nReason: [\"sidewalks and streetlights helps\", \"but the dominance of vehicles\", \"wide lanes\", \"and unclear crossings make this environment decently safe for pedestrians\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\19.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 19.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 6/10\nReason: [\"the residential vibe supports safety\", \"but lack of streetlight keep the area from being pedestrian-friendly\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\2.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 2.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 8/10\nReason: [\"a safe pedestrian environment due to continuous sidewalks\", \"low traffic\", \"and natural surveillance from the apartment building\", \"but minor issues exists with nighttime visibility\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\20.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 20.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"quiet residential area with low traffic and good visibility\", \"but lack of street light makes it unsafe at night\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\21.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 21.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 6/10\nReason: [\"the sidewalks and residential density help pedestrian safety\", \"but obstructions and missing crossing features prevent this from being a fully safe walking environment\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\22.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 22.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 6/10\nReason: [\"low traffic speed helps safety\", \"but the lack of pedestrian infrastructure and sight line obstructions from landscaping lower the score\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\23.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 23.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 9/10\nReason: [\"nice residential area with well-maintained buildings and sidewalks\", \"Overall assessment based on visible features\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\24.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 24.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 3/10\nReason: [\"low traffic helps pedestrian safety\", \"but missing sidewalks\", \"uneven roads\", \"and lack of lighting infrastructure significantly lower safety\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\25.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 25.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 6/10\nReason: [\"sidewalks and residential oversight improve safety\", \"but crossing hazards and infrastructure wear keep this from being pedestrian-friendly\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\26.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 26.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 2/10\nReason: [\"while daytime visibility is decent\", \"the lack of pedestrians infrastructures\", \"low surveillance\", \"and unsafe nighttime conditions make this a poor environment for walking\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\27.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 27.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"sidewalk is missing by the roads but low traffic and residential area increases overall pedestrian safety\", \"Overall assessment based on visible features\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\28.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 28.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"quiet residential setting improves safety\", \"but without sidewalks or lighting\", \"it remains unsafe for pedestrians\", \"especially at night\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\29.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 29.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 7/10\nReason: [\"despite heavy traffic\", \"the presence of wide sidewalks\", \"crossings\", \"and lighting make it a safe walking area\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\3.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 3.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 5/10\nReason: [\"low traffic helps\", \"but without sidewalks\", \"lighting\", \"or visibility\", \"the environment is unsafe for pedestrians\"]"
+  },
+  {
+    "image_path": "C:\\Users\\enoch\\OneDrive\\Documents\\Safer Place\\Soundscape-to-Image\\data\\images\\image\\images\\30.jpg",
+    "prompt": "Analyze this street view image and provide a safety score.\n\nImage: 30.jpg",
+    "task_type": "safety_score",
+    "expected_format": "Score: X/10\nReason: [\"reason 1\", \"reason 2\", ...]",
+    "expected_response": "Score: 8/10\nReason: [\"sidewalks and urban oversight improve safety\", \"but conflict with parked vehicles reduce comfort and protection\"]"
+  }
+]
